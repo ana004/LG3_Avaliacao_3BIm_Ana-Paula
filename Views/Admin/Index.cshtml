@@ -1,0 +1,25 @@
+@model List<MvcRazorViews.ViewModels.SiteViewModel>
+@{
+    ViewData["Title"] = "Lista";
+}
+
+
+@if(Model.Count == 0) 
+{
+    <p>Nenhuma loja ou kiosque cadastrado</p>
+    <a href="#">Cadastre agora</a>
+}
+else
+{
+    <p>@Model.Count lojas e kiosques cadastrados</p>
+
+    @foreach(var comercio in Model)  {
+       
+        <h3>
+            <a href="/Admin/Show/@comercio.Id">@comercio.Nome</a>
+        </h3>
+        <p>@comercio.Descricao</p>
+        
+        <hr>
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "LG3Avaliacao_Ana/1.0.0": {
+        "runtime": {
+          "LG3Avaliacao_Ana.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LG3Avaliacao_Ana/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

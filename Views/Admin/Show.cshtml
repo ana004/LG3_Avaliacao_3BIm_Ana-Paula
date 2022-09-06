@@ -1,0 +1,13 @@
+@model MvcRazorViews.ViewModels.SiteViewModel
+@{
+    ViewData["Title"] = "Detalhes";
+}
+
+<h1>@Model.Nome</h1>
+
+<p>@Model.Id</p>
+<p>@Model.Descricao</p>
+<p>@Model.Tipo</p>
+<p>@Model.Email</p>
+
+<a href="/Admin/Delete/@Model.Id">Excluir comércio</a>
