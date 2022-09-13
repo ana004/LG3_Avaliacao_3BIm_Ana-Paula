@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/estudante/Documentos/SP3044505/LG3Avaliacao_Ana/LG3Avaliacao_Ana.csproj",
+      "projectUniqueName": "/home/estudante/Documentos/ana/LG3_Avaliacao_3BIm_Ana-Paula/LG3Avaliacao_Ana.csproj",
       "projectName": "LG3Avaliacao_Ana",
-      "projectPath": "/home/estudante/Documentos/SP3044505/LG3Avaliacao_Ana/LG3Avaliacao_Ana.csproj",
+      "projectPath": "/home/estudante/Documentos/ana/LG3_Avaliacao_3BIm_Ana-Paula/LG3Avaliacao_Ana.csproj",
       "packagesPath": "/home/estudante/.nuget/packages/",
-      "outputPath": "/home/estudante/Documentos/SP3044505/LG3Avaliacao_Ana/obj/",
+      "outputPath": "/home/estudante/Documentos/ana/LG3_Avaliacao_3BIm_Ana-Paula/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/estudante/.nuget/NuGet/NuGet.Config"

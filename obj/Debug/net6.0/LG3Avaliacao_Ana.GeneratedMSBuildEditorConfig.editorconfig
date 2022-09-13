@@ -8,53 +8,53 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LG3Avaliacao_Ana
 build_property.RootNamespace = LG3Avaliacao_Ana
-build_property.ProjectDir = /home/estudante/Documentos/SP3044505/LG3Avaliacao_Ana/
+build_property.ProjectDir = /home/estudante/Documentos/ana/LG3_Avaliacao_3BIm_Ana-Paula/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /home/estudante/Documentos/SP3044505/LG3Avaliacao_Ana
+build_property.MSBuildProjectDirectory = /home/estudante/Documentos/ana/LG3_Avaliacao_3BIm_Ana-Paula
 build_property._RazorSourceGeneratorDebug = 
 
-[/home/estudante/Documentos/SP3044505/LG3Avaliacao_Ana/Views/Admin/Create.cshtml]
+[/home/estudante/Documentos/ana/LG3_Avaliacao_3BIm_Ana-Paula/Views/Admin/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/estudante/Documentos/SP3044505/LG3Avaliacao_Ana/Views/Admin/Index.cshtml]
+[/home/estudante/Documentos/ana/LG3_Avaliacao_3BIm_Ana-Paula/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/estudante/Documentos/SP3044505/LG3Avaliacao_Ana/Views/Admin/Show.cshtml]
+[/home/estudante/Documentos/ana/LG3_Avaliacao_3BIm_Ana-Paula/Views/Admin/Show.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vU2hvdy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/estudante/Documentos/SP3044505/LG3Avaliacao_Ana/Views/Home/Index.cshtml]
+[/home/estudante/Documentos/ana/LG3_Avaliacao_3BIm_Ana-Paula/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/estudante/Documentos/SP3044505/LG3Avaliacao_Ana/Views/Home/Privacy.cshtml]
+[/home/estudante/Documentos/ana/LG3_Avaliacao_3BIm_Ana-Paula/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/estudante/Documentos/SP3044505/LG3Avaliacao_Ana/Views/Shared/Error.cshtml]
+[/home/estudante/Documentos/ana/LG3_Avaliacao_3BIm_Ana-Paula/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/estudante/Documentos/SP3044505/LG3Avaliacao_Ana/Views/Shared/_ValidationScriptsPartial.cshtml]
+[/home/estudante/Documentos/ana/LG3_Avaliacao_3BIm_Ana-Paula/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/estudante/Documentos/SP3044505/LG3Avaliacao_Ana/Views/Site/Index.cshtml]
+[/home/estudante/Documentos/ana/LG3_Avaliacao_3BIm_Ana-Paula/Views/Site/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2l0ZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/estudante/Documentos/SP3044505/LG3Avaliacao_Ana/Views/_ViewImports.cshtml]
+[/home/estudante/Documentos/ana/LG3_Avaliacao_3BIm_Ana-Paula/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/estudante/Documentos/SP3044505/LG3Avaliacao_Ana/Views/_ViewStart.cshtml]
+[/home/estudante/Documentos/ana/LG3_Avaliacao_3BIm_Ana-Paula/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/estudante/Documentos/SP3044505/LG3Avaliacao_Ana/Views/Shared/_Layout.cshtml]
+[/home/estudante/Documentos/ana/LG3_Avaliacao_3BIm_Ana-Paula/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-pasg75yf5d

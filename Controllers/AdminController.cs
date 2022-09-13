@@ -23,15 +23,16 @@ public class AdminController : Controller
         return View(comercios[id-1]);
     }
 
-    public IActionResult Delete(int id)
+    public void Delete(int id)
     {
         comercios.RemoveAt(id-1);
-
-        return Index();
     }
 
-    public IActionResult Create([FromForm] int id, [FromForm] string piso, [FromForm] string nome, [FromForm] string descricao, [FromForm] string tipo, [FromForm] string email)
+    public IActionResult Create([FromForm] int id, [FromForm] string nome, [FromForm] string piso, [FromForm] string descricao, [FromForm] string tipo, [FromForm] string email)
     {
-        return View(new SiteViewModel(id, piso, nome, descricao, tipo, email));
+        SiteViewModel novoComercio = new SiteViewModel(id, piso, nome, descricao, tipo, email);
+        comercios.Add(novoComercio);
+        return View();
     }
+
 }
