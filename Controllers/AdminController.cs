@@ -7,10 +7,10 @@ public class AdminController : Controller
 //   private static List<SiteViewModel> comercios = new List<SiteViewModel>();
     private static List<SiteViewModel> comercios = new List<SiteViewModel>
     {
-        new SiteViewModel(1, "Piso 1", "Cerâmica", "Aqui vende cerâmica", "Loja", "cer@gmial.com"),
-        new SiteViewModel(2, "Piso 2", "Cerâmica2", "Aqui vende cerâmica2", "Loja2", "cer2@gmial.com"),
-        new SiteViewModel(3, "Piso 3", "Cerâmica3", "Aqui vende cerâmica3", "Loja3", "cer4@gmial.com"),
-        new SiteViewModel(4, "Piso 2", "Cerâmica2", "Aqui vende cerâmica2", "Loja2", "cer2@gmial.com")
+        new SiteViewModel(1, "Ceram", "Piso 1", "Aqui vende cerâmica", "Loja", "cer@gmail.com"),
+        new SiteViewModel(2, "Fini", "Piso 3", "Doces variados", "Loja", "fini@gmail.com"),
+        new SiteViewModel(3, "Ice", "Piso 2", "Aqui vende gelo", "Kiosque", "ice@gmail.com"),
+        new SiteViewModel(4, "Book", "Piso 1", "Livros variados", "Kiosque", "book@gmail.com")
     };
 
     public IActionResult Index()
@@ -62,8 +62,10 @@ public class AdminController : Controller
     public IActionResult Create([FromForm] string nome, [FromForm] string piso, [FromForm] string descricao, [FromForm] string tipo, [FromForm] string email)
     {
         comercioExistsByName(nome);
+
         int id = 4;
         id++;
+
         SiteViewModel novoComercio = new SiteViewModel(id, nome, piso, descricao, tipo, email);
         comercios.Add(novoComercio);
         return View();

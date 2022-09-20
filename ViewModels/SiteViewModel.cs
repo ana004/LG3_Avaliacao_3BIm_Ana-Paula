@@ -18,5 +18,4 @@ public class SiteViewModel
         Tipo = tipo;
         Email = email;
     }
-    
 }
