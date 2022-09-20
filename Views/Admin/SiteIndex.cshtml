@@ -11,15 +11,15 @@
 }
 else
 {
-    <p>@Model.Count lojas e kiosques cadastrados</p>
+    <p>@Model.Count espaços cadastrados</p>
 
     @foreach(var comercio in Model)  {
        
-        <p>@comercio.Id</p>
-        <p>@comercio.Nome</p>
+        <h3>
+            <a href="/Admin/Show/@comercio.Id">@comercio.Nome</a>
+        </h3>
         <p>@comercio.Descricao</p>
-        <p>@comercio.Tipo</p>
-        <p>@comercio.Email</p>
+        
         <hr>
     }
 }

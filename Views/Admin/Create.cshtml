@@ -1,25 +1,44 @@
+@model MvcRazorViews.ViewModels.SiteViewModel
 @{
     ViewData["Title"] = "Criar";
 }
 
 <form id="form" action="Create" method="post">
-    <label for="id">Id</label>
-    <input type="number" name="id" id="id">
+    <p>
+        <label for="nome">Nome: </label>
+        <input type="text" name="nome" id="nome" required>
+    </p>
+    
+    <p>
+        <label for="piso">Piso: </label>
+        <select name="piso" id="piso">
+            <option value="Piso 1">Piso 1</option>
+            <option value="Piso 2">Piso 2</option>
+            <option value="Piso 3">Piso 3</option>
+        </select>
+    </p>
 
-    <label for="nome">Nome</label>
-    <input type="text" name="nome" id="nome">
+    <p>
+        <label for="descricao">Descricao: </label>
+        <input type="text" name="descricao" id="descricao" required>
+    </p>
 
-     <label for="piso">Piso</label>
-    <input type="text" name="piso" id="piso">
+    <p>
+        <label for="tipo">Tipo: </label>
+        <select name="tipo" id="tipo">
+            <option value="Loja">Loja</option>
+            <option value="Kiosque">Kiosque</option>
+        </select>
+    </p>
 
-     <label for="desc">Descricao</label>
-    <input type="text" name="desc" id="desc">
-
-    <label for="tipo">Tipo</label>
-    <input type="text" name="tipo" id="tipo">
-
-    <label for="email">Email</label>
-    <input type="text" name="email" id="email">
+    <p>
+        <label for="email">Email: </label>
+        <input type="text" name="email" id="email" required>
+    </p>
     
     <button type="submit">Criar</button>
 </form>
+
+<div>
+    <a asp-action="Index">Retornar</a>
+</div>
